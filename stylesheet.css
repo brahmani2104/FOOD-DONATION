@@ -1,0 +1,74 @@
+h1{
+   margin-top: 0px;
+   color: rgb(98, 82, 17);
+   text-align:left;
+   background-color:bisque;
+   margin-bottom: 0px;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 70px;
+   font-style: italic;
+   text-decoration-style:dashed;
+
+}
+h2{
+   margin-top: 0px;
+   text-align:right;
+   background-color:bisque;
+   margin-bottom: 0px;
+
+}
+
+h3{
+   padding: 10mm;
+}
+.imgg {  
+   width: 250px;
+ } 
+table{
+    width: 700px;
+    text-align: centre;
+    background-color:bisque;
+    font-weight: bold;
+    color: rgb(90, 85, 85);
+}
+ table,th,tr,td{
+    border: 5px solid rgb(255, 231, 231);
+    border-collapse: collapse;
+    padding: 20px;
+    margin-left: 0px;
+    color: black;
+    
+ }
+ th{
+    background-color: rgb(255, 239, 216);
+    color: rgb(255, 209, 209);
+    color: black ;
+ }
+ ul{
+   display: flex;
+   flex-direction: row;
+   list-style-type: none;
+   justify-content:space-evenly;
+   background-color: darkgoldenrod;
+   color: aliceblue;
+   padding: 20px;
+   margin-top: 0px;
+ }
+ .parent{
+   display: flex;
+   justify-content:space-around;
+ }
+ .child-1,.child-2,.child-3{
+   width: 200px;
+   border-radius: 50px;
+   background-color: rgb(240, 232, 219);
+   padding: 20px;
+   box-shadow: 20px 20px 20px rgb(240, 231, 231);
+   border-image: auto;
+   margin-left: 0px;
+ }
+ .hello:hover
+ {
+   background-color:darkgray;
+
+ }
